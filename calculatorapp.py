@@ -12,8 +12,8 @@ input_method = st.radio("Choose input method", ("Slider", "Number Input"))
 # Conditional input fields based on the selected method
 if input_method == "Slider":
     # Slider for input numbers
-    num1 = st.slider("Select the first number", min_value=0, max_value=100, value=0)  # Adjust range as needed
-    num2 = st.slider("Select the second number", min_value=0, max_value=100, value=0)  # Adjust range as needed
+    num1 = st.slider("Select the first number", min_value=0, max_value=10000000, value=0)  # Adjust range as needed
+    num2 = st.slider("Select the second number", min_value=0, max_value=1000000, value=0)  # Adjust range as needed
 else:  # Number Input
     num1 = st.number_input("Enter the first number", value=0)
     num2 = st.number_input("Enter the second number", value=0)
