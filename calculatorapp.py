@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Simple Calculator App")
 
 # Display your photo
-st.image("0002.jpg", caption="Dillip Meher", use_column_width=True)  # Use just the filename
+st.sidebar.image("0002.jpg", caption="Dillip Meher", width=100)  # Adjust the width to your preference
 
 # Input numbers
 num1 = st.number_input("Enter the first number", value=0)
