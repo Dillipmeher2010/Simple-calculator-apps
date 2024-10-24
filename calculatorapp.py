@@ -8,12 +8,12 @@ st.sidebar.image("0002.jpg", caption="Dillip Meher", width=100)  # Adjust the wi
 
 # Input numbers
 num1 = st.number_input("Enter the first number", value=0)
+num1 = st.slider("Select the first number", min_value=0, max_value=100, value=0)  # Adjust range as needed
 num2 = st.number_input("Enter the second number", value=0)
+num2 = st.slider("Select the second number", min_value=0, max_value=100, value=0)  # Adjust range as needed
 
-with col1:
-    # Slider for input numbers
-    num1 = st.slider("Select the first number", min_value=0, max_value=100, value=0)  # Adjust range as needed
-    num2 = st.slider("Select the second number", min_value=0, max_value=100, value=0)  # Adjust range as needed
+    
+    
 
 
 # Dropdown for operation selection
