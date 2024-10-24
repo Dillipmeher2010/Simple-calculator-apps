@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Simple Calculator App")
 
 # Display your photo
-st.image(r"D:\Photo\0002.jpg", caption="Dillip Meher", use_column_width=True)  # Use raw string to handle backslashes
+st.image("0002.jpg", caption="Dillip Meher", use_column_width=True)  # Use just the filename
 
 # Input numbers
 num1 = st.number_input("Enter the first number", value=0)
